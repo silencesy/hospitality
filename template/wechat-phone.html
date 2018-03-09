@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Hospitality award</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/swiper.min.css">
+    <link rel="stylesheet" href="../static/css/slick.min.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_572262_hwqofrivke53ik9.css">
+    <link rel="stylesheet" href="../static/css/validate.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="wrapper home-wrapper">
+        <!-- 头部开始 -->
+        <div class="topline hidden-xs">
+            <div class="container">
+                <div class="pull-left header-content-login">
+                    <a href="javascript:;">Login</a>
+                    <span class="small-line">|</span>
+                    <a href="javascript:;" class="top-sigin">Sign up</a>
+                    <a class="pointer top-icon">
+                        <i class="iconfont icon-wechat"></i>
+                        <div class="wechat-layer">
+                            <img src="../static/images/WeChat.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <form method="post" action="/search" id="search-form" class="pull-right">
+                    <button class="iconfont icon-fangdajing" type="submit"></button>
+                    <input name="keywords" class="search" type="search" value="" placeholder="" >
+                </form>
+            </div>
+        </div>
+        <!-- 头部结束 -->
+        <!-- 头部广告开始 -->
+        <div class="top-img">
+            <div class="container">
+                <div class="row">
+                    <a href="javascript:;" class="pull-left visible-lg visible-md">
+                      <img src="../static/images/logo.png" alt="">
+                    </a>
+                    <a href="javascript:;" class="pull-right top-img-ad">
+                      <img src="../static/images/top-ad.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 头部广告结束 -->
+        <!-- 导航部分开始 -->
+        <nav id="navbar" role="navigation" class="header-nav hidden-xs">
+            <div class="container container-fluid">
+                <ul class="navbar-nav nav">
+                    <li><a href="javascript:;" target="_self">Home</a></li>
+                    <span class="nav-line">|</span>
+                    <li><a href="javascript:;" target="_self">News</a></li>
+                    <span class="nav-line">|</span>
+                    <li class="dropdown" class="dropdown-toggle" data-hover="dropdown">
+                        <a href="javascript:;" target="_self">Listing <b class="caret"></b></a>
+                        <ul class="dropdown-menu">                
+                            <li><a href="hotel.html">Hotel</a></li>
+                            <li><a href="javascript:;">Apartment</a></li>
+                        </ul>
+                    </li>
+                    <span class="nav-line">|</span>
+                    <li><a href="javascript:;" target="_self">Awards</a></li>   
+                    <span class="nav-line">|</span>
+                    <li><a href="javascript:;" target="_self">Review</a></li>
+                    <span class="nav-line">|</span>
+                    <li><a href="javascript:;" target="_self">thMart</a></li>        
+                </ul>
+            </div>
+        </nav>
+        <!-- 导航部分结束 -->
+        <!-- 面包屑导航栏开始 -->
+        <div class="containerBg">
+            <div class="breadcrumb">
+                <p>
+                    <a href="../template/home-page.html" class="iconfont icon-shouye haveActive">               
+                        <span>Home ></span>
+                    </a>   
+                </p>           
+                <span>Sign up</span>
+            </div>
+        </div>
+        <!-- 面包屑导航栏结束 -->
+        <!-- 内容开始 -->
+        <div class="containerBg">        
+            <div class="row container center-container clearfix">
+                <h2>Please complete the information</h2>
+                <div class="form-box">
+                    <form id="userInfo" action="#">
+                        <div class="row">
+                            <label>Phone</label>
+                            <input type="text" class="phone" data-pattern="^0?1[3|4|7|5|8][0-9]\d{8}$" name="phone" data-required="true" data-descriptions="phone" id="phone">
+                            <input type="button" id="codeBtn" class="send-code" value="Send Code">
+                        </div>
+                        <div class="row">
+                            <label>Code</label>
+                            <input type="text" class="common" name="code" id="code" data-required="true" data-descriptions="code">
+                        </div>
+                        <button class="submit" id="submitInfo">Next Step</button>
+                    </form>
+                </div>
+            </div>
+            <div class="none"></div>
+        </div>
+
+        <div class="container">
+            <!-- 赞助商开始 -->
+            <div class="row articleFive">
+                <div class="bg-title">Sponsorship</div>
+                <a href="javascript:;"><img src="../static/images/that.jpg" alt=""></a>
+                <a href="javascript:;"><img src="../static/images/youzhijia.jpg" alt=""></a>
+                <a href="javascript:;"><img src="../static/images/uf.jpg" alt=""></a>
+                <a href="javascript:;"><img src="../static/images/th.jpg" alt=""></a>
+            </div>
+            <!-- 赞助商结束 -->
+        </div>
+        <!-- 内容结束 -->
+        <!-- 底部部分开始 -->
+        <footer class="footer">
+            <div class="container">
+                <div class="pull-left footer-logo">
+                    <a href="javascript:;"><img src="../static/images/logo-bottom.png" alt=""></a>
+                </div>
+                <div class="pull-right footer-cr">
+                    <p>© 2018 SH Aoyang Advertising Co., Ltd. <a href="http://www.miitbeian.gov.cn" target="_blank">沪ICP备12038926号-2</a></p>
+                </div>
+            </div>
+        </footer>
+        <!-- 底部部分结束 -->
+        <!-- 固定导航栏开始 -->
+        <div class="fixed-nav hidden-xs hidden-sm hidden-md" id="fixed-nav">
+            <div class="banxin">
+                <ul class="fixed-ul">         
+                    <nav id="navbar" role="navigation" class="header-nav hidden-xs">
+                        <div class="container container-fluid">
+                            <ul class="navbar-nav nav">
+                                <li><a href="javascript:;" target="_self">Home</a></li>
+                                <span class="nav-line">|</span>
+                                <li><a href="javascript:;" target="_self">News</a></li>
+                                <span class="nav-line">|</span>
+                                <li class="dropdown" class="dropdown-toggle" data-hover="dropdown">
+                                    <a href="javascript:;" target="_self">Listing <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">                
+                                        <li><a href="hotel.html">Hotel</a></li>
+                                        <li><a href="javascript:;">Apartment</a></li>
+                                    </ul>
+                                </li>
+                                <span class="nav-line">|</span>
+                                <li><a href="javascript:;" target="_self">Awards</a></li>   
+                                <span class="nav-line">|</span>
+                                <li><a href="javascript:;" target="_self">Review</a></li>
+                                <span class="nav-line">|</span>
+                                <li><a href="javascript:;" target="_self">thMart</a></li>        
+                            </ul>
+                        </div>
+                    </nav>
+                </ul>
+            </div>
+        </div>
+        <!-- 固定导航栏结束 -->
+
+        <!-- 移动端导航栏开始 -->
+        <nav class="navbar navbar-default navbar-fixed-top visible-xs" role="navigation">
+            <div class="container-fluid"> 
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#example-navbar-collapse">
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <button type="button" class="navbar-toggle search-mobile" data-toggle="collapse" data-target="#mobile-navbar-search">
+                        <span class="iconfont icon-fangdajing"></span>
+                    </button>
+                    <a class="navbar-brand" href="javascript:;"><img src="" alt=""></a>
+                </div>
+                <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="ctid-10"><a href="javascript:;" target="_self">Home</a></li>
+                        <li class="ctid-11"><a href="javascript:;" target="_self">News</a></li>
+                        <li class="ctid-12">
+                            <a href="javascript:;" target="_self" class="dropdown-toggle" data-toggle="dropdown">Listing<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="javascript:;">Hotel</a></li>
+                                <li><a href="javascript:;">Apartment</a></li>
+                            </ul>                           
+                        </li>
+                        <li class="ctid-15"><a href="javascript:;" target="_self">Awards</a></li>
+                        <li class="ctid-19"><a href="javascript:;" target="_self">Review</a></li>
+                        <li class="ctid-20"><a href="javascript:;" target="_self">thMart</a></li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="mobile-navbar-search">
+                    <div class="search-group search-group-mobile">
+                        <form id="mobile-search-form" method="post" action="/search"><input type="hidden" name="token" value="e83db1fb" /><input name="keywords" type="search" value="" placeholder="" class="pull-left">
+                            <button type="submit" class="icon-search pull-left"><span class="iconfont icon-fangdajing"></span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- 移动端导航栏结束 -->
+    </div>
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap-hover-dropdown/2.0.10/bootstrap-hover-dropdown.min.js"></script>
+    <script src="../static/js/jquery-mvalidate.js"></script>
+    <script src="../static/js/template.js"></script>  
+    <script src="../api/wechatPhone.js"></script>
+</body>
+</html>
